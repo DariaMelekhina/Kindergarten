@@ -9,7 +9,7 @@
 <!--Например: C#, .NET 6.0, WPF, version 2.0-->
 <!--В номере версии указывается только мажорный и минорный номера версии-->
 <a href="https://learn.microsoft.com/ru-ru/dotnet/csharp/"><img src="https://img.shields.io/badge/C%23-.NET 6.0-blue"/></a>
-  <a href="https://dotnet.microsoft.com/en-us/apps/xamarin"><img src="https://img.shields.io/badge/Xamarin-5.0.0.2196-green"/></a>
+  <a href="https://learn.microsoft.com/ru-ru/dotnet/maui/?view=net-maui-8.0"><img src="https://img.shields.io/badge/MAUI-8.0.3-green"/></a>
 </p>
 
 ## Информация о проекте
