@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexh\\Documents\\Kindergarten_MAUI\\Kindergarten_MAUI\\Kindergarten_MAUI.csproj": {}
+    "C:\\Users\\alexh\\Documents\\GitHub\\Kindergarten\\Kindergarten_MAUI\\Kindergarten_MAUI\\Kindergarten_MAUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexh\\Documents\\Kindergarten_MAUI\\Kindergarten_MAUI\\Kindergarten_MAUI.csproj": {
+    "C:\\Users\\alexh\\Documents\\GitHub\\Kindergarten\\Kindergarten_MAUI\\Kindergarten_MAUI\\Kindergarten_MAUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexh\\Documents\\Kindergarten_MAUI\\Kindergarten_MAUI\\Kindergarten_MAUI.csproj",
+        "projectUniqueName": "C:\\Users\\alexh\\Documents\\GitHub\\Kindergarten\\Kindergarten_MAUI\\Kindergarten_MAUI\\Kindergarten_MAUI.csproj",
         "projectName": "Kindergarten_MAUI",
-        "projectPath": "C:\\Users\\alexh\\Documents\\Kindergarten_MAUI\\Kindergarten_MAUI\\Kindergarten_MAUI.csproj",
+        "projectPath": "C:\\Users\\alexh\\Documents\\GitHub\\Kindergarten\\Kindergarten_MAUI\\Kindergarten_MAUI\\Kindergarten_MAUI.csproj",
         "packagesPath": "C:\\Users\\alexh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexh\\Documents\\Kindergarten_MAUI\\Kindergarten_MAUI\\obj\\",
+        "outputPath": "C:\\Users\\alexh\\Documents\\GitHub\\Kindergarten\\Kindergarten_MAUI\\Kindergarten_MAUI\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

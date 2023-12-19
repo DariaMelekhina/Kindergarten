@@ -58,13 +58,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="ListClubsPage.xaml.cs">
+	  <Compile Update="Page\HelpPage.xaml.cs">
+	    <DependentUpon>HelpPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Page\ListClubsPage.xaml.cs">
 	    <DependentUpon>ListClubsPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="ListClubsPage.xaml">
+	  <MauiXaml Update="Page\HelpPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Page\ListClubsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

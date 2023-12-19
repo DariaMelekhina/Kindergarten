@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kindergarten_MAUI.HelpPage"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                x:Name="Head"
+                Text="Не могу войти"
+                TextColor="Black"
+                FontFamily="Montserrat-Medium"
+                FontSize="32">
+            </Label>
+            <Label
+                x:Name="label_0"
+                Text="Вы можете связаться с нами по телефону или по почте - мы обязательно вам поможем."
+                TextColor="Black"
+                FontFamily="Montserrat-Medium"
+                FontSize="16"
+                />
+            <Button
+                x:Name="ButtonNumber"
+                Text="+7 (351) 262-67-36"
+                TextColor="Blue"
+                Clicked="CopyNumber"
+                FontFamily="Montserrat-SemiBold"
+                FontSize="20"
+                HorizontalOptions="Start"
+                />
+
+            <Button
+                x:Name="ButtonMail"
+                Text="garden123@mail.ru"
+                TextColor="Blue"
+                FontFamily="Montserrat-SemiBold"
+                FontSize="20" 
+                Clicked="CopyEmail"
+                HorizontalOptions="Start"
+            />
+
+            
+            <Button
+                x:Name="BackButton"
+                Text="Назад"
+                Clicked="Back"
+                HorizontalOptions="Center"
+                BackgroundColor = "#7196CD"
+                MinimumWidthRequest="150"
+                MinimumHeightRequest="50"
+                TextColor="#2B313B"
+                FontFamily="Montserrat-Medium"
+                FontSize="16"
+                />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
