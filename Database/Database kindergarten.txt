@@ -4,14 +4,16 @@ USE Kindergarten;
 
 CREATE TABLE Parents(
 id_parentm int AUTO_INCREMENT PRIMARY KEY,
-full_name  VARCHAR(255) NOT NULL,
+first_name VARCHAR(255) NOT NULL,
+father_name VARCHAR(255) NOT NULL,
+second_name VARCHAR(255) NOT NULL,
 phone VARCHAR(12) NOT NULL,
 password VARCHAR(20) NOT NULL
 );
 
 CREATE TABLE Classes(
 id_class int AUTO_INCREMENT PRIMARY KEY,
-full_name  VARCHAR(255) NOT NULL,
+full_name VARCHAR(255) NOT NULL,
 price DECIMAL(10, 2) NOT NULL
 );
 
@@ -22,15 +24,19 @@ full_name  VARCHAR(255) NOT NULL
 
 CREATE TABLE Children(
 id_child int AUTO_INCREMENT PRIMARY KEY,
-full_name  VARCHAR(255) NOT NULL,
+first_name VARCHAR(255) NOT NULL,
+father_name VARCHAR(255) NOT NULL,
+second_name VARCHAR(255) NOT NULL,
 id_parentm int,
 FOREIGN KEY (id_parentm) REFERENCES Parents(id_parentm)
 );
 
 CREATE TABLE Staff(
 id_employee int AUTO_INCREMENT PRIMARY KEY,
-full_name  VARCHAR(255) NOT NULL,
-id_position INT,
+first_name VARCHAR(255) NOT NULL,
+father_name VARCHAR(255) NOT NULL,
+second_name VARCHAR(255) NOT NULL,
+id_position int,
 FOREIGN KEY (id_position) REFERENCES Position_at_work(id_position),
 password VARCHAR(20) NOT NULL
 );
@@ -56,7 +62,3 @@ event_day ENUM('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday
 event_time TIME NOT NULL,
 Presence TINYINT(1) NOT NULL DEFAULT 1
 );
-
-
-
-
