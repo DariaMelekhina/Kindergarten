@@ -1,0 +1,11 @@
+Запросы:
+
+Вывод логина и пароля родителя
+Create view password as Create view log_passw as Select id_parentm, phone, password 
+From parents;
+
+Вывод расписания ребенка на сегодня
+Create view Child_to_day as Select C.first_name, Sch.event_time, Cl.full_name, Sch.presence, concat(concat(Staff.second_name, " "), concat(substring(Staff.first_name, 1, 1),".")) as "employee"
+From Children C join Schedule Sch join Classes Cl join Staff on Sch.id_child = C.id_child and Sch.id_class = Cl.id_class and Sch.id_employee = Staff.id_employee
+where event_day = DAYNAME(CURDATE());
+
