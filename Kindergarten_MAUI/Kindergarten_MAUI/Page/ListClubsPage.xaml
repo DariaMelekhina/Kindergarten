@@ -4,17 +4,6 @@
              x:Class="Kindergarten_MAUI.ListClubsPage"
              BackgroundColor="White">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
 
-            <Entry x:Name="EntryLogin1"
-                    Placeholder="Enter Login"/>
-
-
-        </VerticalStackLayout>
-    </ScrollView>
 
 </ContentPage>

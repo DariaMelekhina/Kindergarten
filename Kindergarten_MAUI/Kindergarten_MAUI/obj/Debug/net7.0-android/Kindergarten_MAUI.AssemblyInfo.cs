@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kindergarten_MAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a9e98be8d58a097e8970d8bb01f38d2be9062126")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kindergarten_MAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kindergarten_MAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

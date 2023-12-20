@@ -10,13 +10,11 @@ namespace Kindergarten_MAUI
     {
         private string _login;
         private string _password;
-        private bool _isLogin;
 
         public Logging() 
         {
             _login = "";
             _password = "";
-            _isLogin = false;
         }
 
         public string Login => _login;
@@ -24,13 +22,17 @@ namespace Kindergarten_MAUI
         public string IsLogin => _password;
         public void SetPassword(string password) => _password = password;
         public void SetLogin(string login) => _login = login;
-        public bool SendLoginRequest()
+        public string SendLoginRequest()
         {
-            // TODO: Отправляем запрос на сервер
-            if (true)
-                _isLogin = true;
+            string idParent = "-1";
 
-            return _isLogin;
+            // TODO: Отправляем запрос на сервер
+            if (false) // Если пришёл id меняем значение переменной
+            {
+                //idParent = {};
+            }
+
+            return idParent;
         }
     }
 }
